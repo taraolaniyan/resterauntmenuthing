@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+*{
+	padding: 10;
+	margin: 15;
+	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
+}
+
+.icon-bar {
+    width: 90px; /* Set a specific width */
+    background-color: #f8dae2; /* Light Purple background */
+  }
+  
+  .icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font-size */
+  }
+  
+  .icon-bar a:hover {
+    background-color: #deb3cf; /* Add a hover color */
+  }
+  
+  .active {
+    background-color: #B57FB3; /* Add an active/current color */
+  }
+
+  body {
+    background-image: url('https://wallpaperaccess.com/full/635988.png');
+  }
+  
